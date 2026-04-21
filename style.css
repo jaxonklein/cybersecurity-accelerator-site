@@ -490,3 +490,132 @@ footer a:hover {
     align-items: flex-start;
   }
 }
+
+/* ─── Advisory pages ─── */
+
+.advisory-body {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.advisory-body section {
+  margin-bottom: 48px;
+}
+
+.advisory-body h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+  border-bottom: 2px solid var(--crimson);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.advisory-body h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 24px 0 8px;
+}
+
+.advisory-body p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.advisory-body ul, .advisory-body ol {
+  color: var(--ink-soft);
+  line-height: 1.7;
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+
+.advisory-body li {
+  margin-bottom: 6px;
+}
+
+.advisory-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+
+.advisory-body th {
+  text-align: left;
+  padding: 8px 12px;
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-weight: 600;
+  border: 1px solid var(--border);
+}
+
+.advisory-body td {
+  padding: 8px 12px;
+  color: var(--ink-soft);
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.advisory-body td:first-child {
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.advisory-body code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--surface-alt);
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: var(--crimson-dark);
+}
+
+.advisory-meta-table {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 0;
+  margin-bottom: 40px;
+}
+
+.advisory-meta-table table {
+  margin: 0;
+}
+
+.advisory-meta-table th {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  width: 180px;
+}
+
+.advisory-meta-table td {
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: var(--ink-soft);
+}
+
+.advisory-meta-table tr:last-child th,
+.advisory-meta-table tr:last-child td {
+  border-bottom: none;
+}
+
+.advisory-footer {
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
